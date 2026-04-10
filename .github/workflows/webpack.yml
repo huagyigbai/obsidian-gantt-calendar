@@ -31,5 +31,8 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: obsidian-plugin-build-${{ matrix.node-version }}
-        path: dist/  # 这里是构建产物目录，若你的是 build 就改成 build/
+        name: obsidian-gantt-calendar
+        path: |
+          main.js
+          manifest.json
+          styles.css
