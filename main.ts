@@ -140,7 +140,7 @@ export default class GanttCalendarPlugin extends Plugin {
 		ribbonIconEl.addClass('gantt-calendar-ribbon');
 
 		// 状态栏项
-		const statusBarItemEl = this.addStatusBarItem();
-		statusBarItemEl.setText(`${this.manifest.name} v${this.manifest.version}`);
+		// const statusBarItemEl = this.addStatusBarItem();
+		// statusBarItemEl.setText(`${this.manifest.name} v${this.manifest.version}`);
 	}
 }
